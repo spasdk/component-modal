@@ -1,5 +1,5 @@
-/* spa-component-modal: release */
-.component.modal {
+.spa-component-modal {
+    box-sizing: border-box;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -7,11 +7,13 @@
     top: 0;
     background-color: rgba(0, 0, 0, 0.5);
     display: table; }
-    .component.modal > div {
+    .spa-component-modal.hidden {
+        display: none; }
+    .spa-component-modal > div {
         display: table-cell;
         vertical-align: middle;
         text-align: center; }
-        .component.modal > div > div.body {
+        .spa-component-modal > div > div.body {
             display: inline-block;
             overflow: hidden;
             background-color: #333;

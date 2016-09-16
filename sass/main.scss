@@ -1,28 +1,14 @@
 // @license The MIT License (MIT)
 // @copyright Stanislav Kalashnik <darkpark.main@gmail.com>
 
-/* spa-component-modal: release */
-.component.modal {
-    width:            $width;
-    height:           $height;
-    position:         absolute;
-    left:             0;
-    top:              0;
-    background-color: rgba(0, 0, 0, 0.5);
-    display:          table;
+@import "../node_modules/spa-component/sass/main";
+@import "body";
 
-    > div {
-        display:        table-cell;
-        vertical-align: middle;
-        text-align:     center;
+.spa-component-modal {
+    @include spa-component-release;
+    @include spa-component-modal;
 
-        > div.body {
-            display:          inline-block;
-            overflow:         hidden;
-            background-color: #333;
-            padding:          3%;
-            max-width:        80%;
-            max-height:       80%;
-        }
+    @if $DEVELOP {
+        @include spa-component-develop;
     }
 }

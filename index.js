@@ -30,7 +30,7 @@ function Modal ( config ) {
     }
 
     // set default className if classList property empty or undefined
-    config.className = 'modal ' + (config.className || '');
+    //config.className = 'modal ' + (config.className || '');
 
     // create centered div
     config.$body = document.createElement('div');
@@ -47,6 +47,9 @@ function Modal ( config ) {
 // inheritance
 Modal.prototype = Object.create(Component.prototype);
 Modal.prototype.constructor = Modal;
+
+// set component name
+Modal.prototype.name = 'spa-component-modal';
 
 
 // public
