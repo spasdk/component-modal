@@ -1,6 +1,7 @@
 Modal component
 ===============
 
+[![Build Status](https://img.shields.io/travis/spasdk/component-modal.svg?style=flat-square)](https://travis-ci.org/spasdk/component-modal)
 [![NPM version](https://img.shields.io/npm/v/spa-component-modal.svg?style=flat-square)](https://www.npmjs.com/package/spa-component-modal)
 [![Dependencies Status](https://img.shields.io/david/spasdk/component-modal.svg?style=flat-square)](https://david-dm.org/spasdk/component-modal)
 [![Gitter](https://img.shields.io/badge/gitter-join%20chat-blue.svg?style=flat-square)](https://gitter.im/DarkPark/spasdk)
