@@ -29,9 +29,6 @@ function Modal ( config ) {
         if ( config.$body ) { throw new Error(__filename + ': config.$body should not be provided in ModalBox manually'); }
     }
 
-    // set default className if classList property empty or undefined
-    //config.className = 'modal ' + (config.className || '');
-
     // create centered div
     config.$body = document.createElement('div');
     config.$body.className = 'body';
