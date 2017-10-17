@@ -31,7 +31,7 @@ function Modal ( config ) {
             throw new Error(__filename + ': wrong or empty config.className');
         }
         if ( config.$body ) {
-            throw new Error(__filename + ': config.$body should not be provided in ModalBox manually');
+            throw new Error(__filename + ': config.$body should not be provided manually');
         }
     }
 
